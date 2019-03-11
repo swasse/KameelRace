@@ -1,0 +1,7 @@
+#Mon Apr 24 15:31:44 CEST 2017
+base.0=/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c1988b2b79c6af48b97fae4030bb78a02c66d028
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6f09dbaf09548e1064777a8844b853e5ce421e2b/classes.dex
+base.1=/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6f09dbaf09548e1064777a8844b853e5ce421e2b
+file.0=/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c1988b2b79c6af48b97fae4030bb78a02c66d028/classes.dex

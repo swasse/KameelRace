@@ -1,0 +1,4 @@
+#Thu Feb 21 16:08:54 CET 2019
+base.0=/Users/ontlener/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex

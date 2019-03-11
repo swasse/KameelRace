@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/davidvansteertegem/.android/build-cache/97701c7c91c4cbaaeca03f3585cad86e14008253/output/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_30ca3620e4dd6a14e5bb1b45385c19c971c2d92c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45e27f0b506cfccb988747d9b3156c52713bdb0e">
+        <dex dex="/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6f09dbaf09548e1064777a8844b853e5ce421e2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidvansteertegem/.android/build-cache/97701c7c91c4cbaaeca03f3585cad86e14008253/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2c931a9d637ed963497bbcc34becef8ce9d0acff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidvansteertegem/.android/build-cache/6dca7d77eee784ac025c3256211ea2bfa0b0d705/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b29fb09ba6ef5edd1fb9c9e286f05a22820ed7b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/davidvansteertegem/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c1988b2b79c6af48b97fae4030bb78a02c66d028/classes.dex" />
+    </item>
+
+</items>
