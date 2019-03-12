@@ -5,26 +5,30 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.1"
-    timestamp="1552319137748"
+    timestamp="1552385687167"
     token="4979212939648786984"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="474" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="17" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <artifact
         location="/Users/ontlener/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ontlener/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
 
     <build
@@ -94,6 +98,12 @@
         <artifact
             location="/Users/ontlener/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1552385562165"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/ontlener/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
@@ -101,18 +111,13 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1552318789414"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/ontlener/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1552319137748"
+        timestamp="1552385687167"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/ontlener/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ontlener/Dropbox/courses/Android/10_threading/KameelRace/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
     </build>
 

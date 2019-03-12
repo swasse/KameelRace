@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatSeekBar;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -15,6 +16,7 @@ public class KameelActivity extends AppCompatActivity {
     private TextView tvResult, tvGokResult;
     private AppCompatSeekBar k1, k2, k3;
     private Spinner spKamelen;
+    private Button btnGo;
 
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class KameelActivity extends AppCompatActivity {
         tvResult = findViewById(R.id.result_tv);
         tvGokResult = findViewById(R.id.tv_gok_result);
         spKamelen = findViewById(R.id.sp_kamelen);
+        btnGo = findViewById(R.id.btn_go);
 
         k1 = findViewById(R.id.kameel1_pb);
         k2 = findViewById(R.id.kameel2_pb);
@@ -37,7 +40,7 @@ public class KameelActivity extends AppCompatActivity {
 
     private void setupSpinner() {
         String[] namen = {(String) k1.getTag(), (String) k2.getTag(), (String) k3.getTag()};
-        ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, namen);
+        ArrayAdapter<String> mAdapter = new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, namen);
         spKamelen.setAdapter(mAdapter);
     }
 
@@ -47,8 +50,9 @@ public class KameelActivity extends AppCompatActivity {
         k2.setProgress(0);
         k3.setProgress(0);
         tvResult.setText("");
+        tvGokResult.setText("");
 
-		KameelTask kTask = new KameelTask(tvResult, tvGokResult, (String)spKamelen.getSelectedItem());
+		KameelTask kTask = new KameelTask(tvResult, tvGokResult, (String)spKamelen.getSelectedItem(), btnGo);
         kTask.execute(k1, k2, k3);
 	}
 }
