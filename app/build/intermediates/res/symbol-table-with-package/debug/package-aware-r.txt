@@ -628,6 +628,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable ic_action_name
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -887,10 +888,14 @@ string abc_toolbar_collapse_description
 string app_name
 string hello_world
 string menu_settings
-string placeholder
 string search_menu_title
 string start_btn_s
 string status_bar_notification_info_overflow
+string txt_lose
+string txt_runner1
+string txt_runner2
+string txt_runner3
+string txt_win
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

@@ -2,17 +2,18 @@ package be.ehb.kameelrace;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.AppCompatSeekBar;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import be.ehb.kameelrace.utilities.KameelTask;
 
 public class KameelActivity extends AppCompatActivity {
 
     private TextView tvResult, tvGokResult;
-    private ProgressBar k1, k2, k3;
+    private AppCompatSeekBar k1, k2, k3;
     private Spinner spKamelen;
 
     @Override
@@ -35,7 +36,7 @@ public class KameelActivity extends AppCompatActivity {
     }
 
     private void setupSpinner() {
-        String[] namen = {"Jef","Joske","Freddy"};
+        String[] namen = {(String) k1.getTag(), (String) k2.getTag(), (String) k3.getTag()};
         ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, namen);
         spKamelen.setAdapter(mAdapter);
     }
